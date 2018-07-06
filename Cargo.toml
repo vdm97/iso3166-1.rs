@@ -9,3 +9,8 @@ name = "iso3166-1"
 readme = "README.md"
 repository = "https://github.com/zeyla/iso3166-1.rs.git"
 version = "1.0.1"
+
+[dependencies.serde]
+version = "1.0.69"
+optional = true
+features = ["derive"]

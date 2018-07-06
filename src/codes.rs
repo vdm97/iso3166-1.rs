@@ -44,1503 +44,1503 @@ use CountryCode;
 //
 // Source:
 // https://en.wikipedia.org/wiki/ISO_3166-1#Officially_assigned_code_elements
-pub fn all<'a>() -> Vec<CountryCode<'a>> {
+pub fn all() -> Vec<CountryCode> {
     let mut codes: Vec<CountryCode> = vec![];
 
     // Begin
     codes.push(CountryCode {
-        alpha2: "AF",
-        alpha3: "AFG",
-        name: "Afghanistan",
-        num: "004",
+        alpha2: String::from("AF"),
+        alpha3: String::from("AFG"),
+        name: String::from("Afghanistan"),
+        num: String::from("004"),
     });
     codes.push(CountryCode {
-        alpha2: "AL",
-        alpha3: "ALB",
-        name: "Albania",
-        num: "008",
+        alpha2: String::from("AL"),
+        alpha3: String::from("ALB"),
+        name: String::from("Albania"),
+        num: String::from("008"),
     });
     codes.push(CountryCode {
-        alpha2: "AQ",
-        alpha3: "ATA",
-        name: "Antarctica",
-        num: "010",
+        alpha2: String::from("AQ"),
+        alpha3: String::from("ATA"),
+        name: String::from("Antarctica"),
+        num: String::from("010"),
     });
     codes.push(CountryCode {
-        alpha2: "DZ",
-        alpha3: "DZA",
-        name: "Algeria",
-        num: "012",
+        alpha2: String::from("DZ"),
+        alpha3: String::from("DZA"),
+        name: String::from("Algeria"),
+        num: String::from("012"),
     });
     codes.push(CountryCode {
-        alpha2: "AS",
-        alpha3: "ASM",
-        name: "American Samoa",
-        num: "016",
+        alpha2: String::from("AS"),
+        alpha3: String::from("ASM"),
+        name: String::from("American Samoa"),
+        num: String::from("016"),
     });
     codes.push(CountryCode {
-        alpha2: "AD",
-        alpha3: "AND",
-        name: "Andorra",
-        num: "020",
+        alpha2: String::from("AD"),
+        alpha3: String::from("AND"),
+        name: String::from("Andorra"),
+        num: String::from("020"),
     });
     codes.push(CountryCode {
-        alpha2: "AO",
-        alpha3: "AGO",
-        name: "Angola",
-        num: "024",
+        alpha2: String::from("AO"),
+        alpha3: String::from("AGO"),
+        name: String::from("Angola"),
+        num: String::from("024"),
     });
     codes.push(CountryCode {
-        alpha2: "AG",
-        alpha3: "ATG",
-        name: "Antigua and Barbuda",
-        num: "028",
+        alpha2: String::from("AG"),
+        alpha3: String::from("ATG"),
+        name: String::from("Antigua and Barbuda"),
+        num: String::from("028"),
     });
     codes.push(CountryCode {
-        alpha2: "AZ",
-        alpha3: "AZE",
-        name: "Azerbaijan",
-        num: "031",
+        alpha2: String::from("AZ"),
+        alpha3: String::from("AZE"),
+        name: String::from("Azerbaijan"),
+        num: String::from("031"),
     });
     codes.push(CountryCode {
-        alpha2: "AR",
-        alpha3: "ARG",
-        name: "Argentina",
-        num: "032",
+        alpha2: String::from("AR"),
+        alpha3: String::from("ARG"),
+        name: String::from("Argentina"),
+        num: String::from("032"),
     });
     codes.push(CountryCode {
-        alpha2: "AU",
-        alpha3: "AUS",
-        name: "Australia",
-        num: "036",
+        alpha2: String::from("AU"),
+        alpha3: String::from("AUS"),
+        name: String::from("Australia"),
+        num: String::from("036"),
     });
     codes.push(CountryCode {
-        alpha2: "AT",
-        alpha3: "AUT",
-        name: "Austria",
-        num: "040",
+        alpha2: String::from("AT"),
+        alpha3: String::from("AUT"),
+        name: String::from("Austria"),
+        num: String::from("040"),
     });
     codes.push(CountryCode {
-        alpha2: "BS",
-        alpha3: "BHS",
-        name: "Bahamas",
-        num: "044",
+        alpha2: String::from("BS"),
+        alpha3: String::from("BHS"),
+        name: String::from("Bahamas"),
+        num: String::from("044"),
     });
     codes.push(CountryCode {
-        alpha2: "BH",
-        alpha3: "BHR",
-        name: "Bahrain",
-        num: "048",
+        alpha2: String::from("BH"),
+        alpha3: String::from("BHR"),
+        name: String::from("Bahrain"),
+        num: String::from("048"),
     });
     codes.push(CountryCode {
-        alpha2: "BD",
-        alpha3: "BGD",
-        name: "Bangladesh",
-        num: "050",
+        alpha2: String::from("BD"),
+        alpha3: String::from("BGD"),
+        name: String::from("Bangladesh"),
+        num: String::from("050"),
     });
     codes.push(CountryCode {
-        alpha2: "AM",
-        alpha3: "ARM",
-        name: "Armenia",
-        num: "051",
+        alpha2: String::from("AM"),
+        alpha3: String::from("ARM"),
+        name: String::from("Armenia"),
+        num: String::from("051"),
     });
     codes.push(CountryCode {
-        alpha2: "BB",
-        alpha3: "BRB",
-        name: "Barbados",
-        num: "052",
+        alpha2: String::from("BB"),
+        alpha3: String::from("BRB"),
+        name: String::from("Barbados"),
+        num: String::from("052"),
     });
     codes.push(CountryCode {
-        alpha2: "BE",
-        alpha3: "BEL",
-        name: "Belgium",
-        num: "056",
+        alpha2: String::from("BE"),
+        alpha3: String::from("BEL"),
+        name: String::from("Belgium"),
+        num: String::from("056"),
     });
     codes.push(CountryCode {
-        alpha2: "BM",
-        alpha3: "BMU",
-        name: "Bermuda",
-        num: "060",
+        alpha2: String::from("BM"),
+        alpha3: String::from("BMU"),
+        name: String::from("Bermuda"),
+        num: String::from("060"),
     });
     codes.push(CountryCode {
-        alpha2: "BT",
-        alpha3: "BTN",
-        name: "Bhutan",
-        num: "064",
+        alpha2: String::from("BT"),
+        alpha3: String::from("BTN"),
+        name: String::from("Bhutan"),
+        num: String::from("064"),
     });
     codes.push(CountryCode {
-        alpha2: "BO",
-        alpha3: "BOL",
-        name: "Bolivia (Plurinational State of)",
-        num: "068",
+        alpha2: String::from("BO"),
+        alpha3: String::from("BOL"),
+        name: String::from("Bolivia (Plurinational State of)"),
+        num: String::from("068"),
     });
     codes.push(CountryCode {
-        alpha2: "BA",
-        alpha3: "BIH",
-        name: "Bosnia and Herzegovina",
-        num: "070",
+        alpha2: String::from("BA"),
+        alpha3: String::from("BIH"),
+        name: String::from("Bosnia and Herzegovina"),
+        num: String::from("070"),
     });
     codes.push(CountryCode {
-        alpha2: "BW",
-        alpha3: "BWA",
-        name: "Botswana",
-        num: "072",
+        alpha2: String::from("BW"),
+        alpha3: String::from("BWA"),
+        name: String::from("Botswana"),
+        num: String::from("072"),
     });
     codes.push(CountryCode {
-        alpha2: "BV",
-        alpha3: "BVT",
-        name: "Bouvet Island",
-        num: "074",
+        alpha2: String::from("BV"),
+        alpha3: String::from("BVT"),
+        name: String::from("Bouvet Island"),
+        num: String::from("074"),
     });
     codes.push(CountryCode {
-        alpha2: "BR",
-        alpha3: "BRA",
-        name: "Brazil",
-        num: "076",
+        alpha2: String::from("BR"),
+        alpha3: String::from("BRA"),
+        name: String::from("Brazil"),
+        num: String::from("076"),
     });
     codes.push(CountryCode {
-        alpha2: "BZ",
-        alpha3: "BLZ",
-        name: "Belize",
-        num: "084",
+        alpha2: String::from("BZ"),
+        alpha3: String::from("BLZ"),
+        name: String::from("Belize"),
+        num: String::from("084"),
     });
     codes.push(CountryCode {
-        alpha2: "IO",
-        alpha3: "IOT",
-        name: "British Indian Ocean Territory",
-        num: "086",
+        alpha2: String::from("IO"),
+        alpha3: String::from("IOT"),
+        name: String::from("British Indian Ocean Territory"),
+        num: String::from("086"),
     });
     codes.push(CountryCode {
-        alpha2: "SB",
-        alpha3: "SLB",
-        name: "Solomon Islands",
-        num: "090",
+        alpha2: String::from("SB"),
+        alpha3: String::from("SLB"),
+        name: String::from("Solomon Islands"),
+        num: String::from("090"),
     });
     codes.push(CountryCode {
-        alpha2: "VG",
-        alpha3: "VGB",
-        name: "Virgin Islands (British)",
-        num: "092",
+        alpha2: String::from("VG"),
+        alpha3: String::from("VGB"),
+        name: String::from("Virgin Islands (British)"),
+        num: String::from("092"),
     });
     codes.push(CountryCode {
-        alpha2: "BN",
-        alpha3: "BRN",
-        name: "Brunei Darussalam",
-        num: "096",
+        alpha2: String::from("BN"),
+        alpha3: String::from("BRN"),
+        name: String::from("Brunei Darussalam"),
+        num: String::from("096"),
     });
     codes.push(CountryCode {
-        alpha2: "BG",
-        alpha3: "BGR",
-        name: "Bulgaria",
-        num: "100",
+        alpha2: String::from("BG"),
+        alpha3: String::from("BGR"),
+        name: String::from("Bulgaria"),
+        num: String::from("100"),
     });
     codes.push(CountryCode {
-        alpha2: "MM",
-        alpha3: "MMR",
-        name: "Myanmar",
-        num: "104",
+        alpha2: String::from("MM"),
+        alpha3: String::from("MMR"),
+        name: String::from("Myanmar"),
+        num: String::from("104"),
     });
     codes.push(CountryCode {
-        alpha2: "BI",
-        alpha3: "BDI",
-        name: "Burundi",
-        num: "108",
+        alpha2: String::from("BI"),
+        alpha3: String::from("BDI"),
+        name: String::from("Burundi"),
+        num: String::from("108"),
     });
     codes.push(CountryCode {
-        alpha2: "BY",
-        alpha3: "BLR",
-        name: "Belarus",
-        num: "112",
+        alpha2: String::from("BY"),
+        alpha3: String::from("BLR"),
+        name: String::from("Belarus"),
+        num: String::from("112"),
     });
     codes.push(CountryCode {
-        alpha2: "KH",
-        alpha3: "KHM",
-        name: "Cambodia",
-        num: "116",
+        alpha2: String::from("KH"),
+        alpha3: String::from("KHM"),
+        name: String::from("Cambodia"),
+        num: String::from("116"),
     });
     codes.push(CountryCode {
-        alpha2: "CM",
-        alpha3: "CMR",
-        name: "Cameroon",
-        num: "120",
+        alpha2: String::from("CM"),
+        alpha3: String::from("CMR"),
+        name: String::from("Cameroon"),
+        num: String::from("120"),
     });
     codes.push(CountryCode {
-        alpha2: "CA",
-        alpha3: "CAN",
-        name: "Canada",
-        num: "124",
+        alpha2: String::from("CA"),
+        alpha3: String::from("CAN"),
+        name: String::from("Canada"),
+        num: String::from("124"),
     });
     codes.push(CountryCode {
-        alpha2: "CV",
-        alpha3: "CPV",
-        name: "Cabo Verde",
-        num: "132",
+        alpha2: String::from("CV"),
+        alpha3: String::from("CPV"),
+        name: String::from("Cabo Verde"),
+        num: String::from("132"),
     });
     codes.push(CountryCode {
-        alpha2: "KY",
-        alpha3: "CYM",
-        name: "Cayman Islands",
-        num: "136",
+        alpha2: String::from("KY"),
+        alpha3: String::from("CYM"),
+        name: String::from("Cayman Islands"),
+        num: String::from("136"),
     });
     codes.push(CountryCode {
-        alpha2: "CF",
-        alpha3: "CAF",
-        name: "Central African Republic",
-        num: "140",
+        alpha2: String::from("CF"),
+        alpha3: String::from("CAF"),
+        name: String::from("Central African Republic"),
+        num: String::from("140"),
     });
     codes.push(CountryCode {
-        alpha2: "LK",
-        alpha3: "LKA",
-        name: "Sri Lanka",
-        num: "144",
+        alpha2: String::from("LK"),
+        alpha3: String::from("LKA"),
+        name: String::from("Sri Lanka"),
+        num: String::from("144"),
     });
     codes.push(CountryCode {
-        alpha2: "TD",
-        alpha3: "TCD",
-        name: "Chad",
-        num: "148",
+        alpha2: String::from("TD"),
+        alpha3: String::from("TCD"),
+        name: String::from("Chad"),
+        num: String::from("148"),
     });
     codes.push(CountryCode {
-        alpha2: "CL",
-        alpha3: "CHL",
-        name: "Chile",
-        num: "152",
+        alpha2: String::from("CL"),
+        alpha3: String::from("CHL"),
+        name: String::from("Chile"),
+        num: String::from("152"),
     });
     codes.push(CountryCode {
-        alpha2: "CN",
-        alpha3: "CHN",
-        name: "China",
-        num: "156",
+        alpha2: String::from("CN"),
+        alpha3: String::from("CHN"),
+        name: String::from("China"),
+        num: String::from("156"),
     });
     codes.push(CountryCode {
-        alpha2: "TW",
-        alpha3: "TWN",
-        name: "Taiwan, Province of China[a]",
-        num: "158",
+        alpha2: String::from("TW"),
+        alpha3: String::from("TWN"),
+        name: String::from("Taiwan, Province of China[a]"),
+        num: String::from("158"),
     });
     codes.push(CountryCode {
-        alpha2: "CX",
-        alpha3: "CXR",
-        name: "Christmas Island",
-        num: "162",
+        alpha2: String::from("CX"),
+        alpha3: String::from("CXR"),
+        name: String::from("Christmas Island"),
+        num: String::from("162"),
     });
     codes.push(CountryCode {
-        alpha2: "CC",
-        alpha3: "CCK",
-        name: "Cocos (Keeling) Islands",
-        num: "166",
+        alpha2: String::from("CC"),
+        alpha3: String::from("CCK"),
+        name: String::from("Cocos (Keeling) Islands"),
+        num: String::from("166"),
     });
     codes.push(CountryCode {
-        alpha2: "CO",
-        alpha3: "COL",
-        name: "Colombia",
-        num: "170",
+        alpha2: String::from("CO"),
+        alpha3: String::from("COL"),
+        name: String::from("Colombia"),
+        num: String::from("170"),
     });
     codes.push(CountryCode {
-        alpha2: "KM",
-        alpha3: "COM",
-        name: "Comoros",
-        num: "174",
+        alpha2: String::from("KM"),
+        alpha3: String::from("COM"),
+        name: String::from("Comoros"),
+        num: String::from("174"),
     });
     codes.push(CountryCode {
-        alpha2: "YT",
-        alpha3: "MYT",
-        name: "Mayotte",
-        num: "175",
+        alpha2: String::from("YT"),
+        alpha3: String::from("MYT"),
+        name: String::from("Mayotte"),
+        num: String::from("175"),
     });
     codes.push(CountryCode {
-        alpha2: "CG",
-        alpha3: "COG",
-        name: "Congo",
-        num: "178",
+        alpha2: String::from("CG"),
+        alpha3: String::from("COG"),
+        name: String::from("Congo"),
+        num: String::from("178"),
     });
     codes.push(CountryCode {
-        alpha2: "CD",
-        alpha3: "COD",
-        name: "Congo (Democratic Republic of the)",
-        num: "180",
+        alpha2: String::from("CD"),
+        alpha3: String::from("COD"),
+        name: String::from("Congo (Democratic Republic of the)"),
+        num: String::from("180"),
     });
     codes.push(CountryCode {
-        alpha2: "CK",
-        alpha3: "COK",
-        name: "Cook Islands",
-        num: "184",
+        alpha2: String::from("CK"),
+        alpha3: String::from("COK"),
+        name: String::from("Cook Islands"),
+        num: String::from("184"),
     });
     codes.push(CountryCode {
-        alpha2: "CR",
-        alpha3: "CRI",
-        name: "Costa Rica",
-        num: "188",
+        alpha2: String::from("CR"),
+        alpha3: String::from("CRI"),
+        name: String::from("Costa Rica"),
+        num: String::from("188"),
     });
     codes.push(CountryCode {
-        alpha2: "HR",
-        alpha3: "HRV",
-        name: "Croatia",
-        num: "191",
+        alpha2: String::from("HR"),
+        alpha3: String::from("HRV"),
+        name: String::from("Croatia"),
+        num: String::from("191"),
     });
     codes.push(CountryCode {
-        alpha2: "CU",
-        alpha3: "CUB",
-        name: "Cuba",
-        num: "192",
+        alpha2: String::from("CU"),
+        alpha3: String::from("CUB"),
+        name: String::from("Cuba"),
+        num: String::from("192"),
     });
     codes.push(CountryCode {
-        alpha2: "CY",
-        alpha3: "CYP",
-        name: "Cyprus",
-        num: "196",
+        alpha2: String::from("CY"),
+        alpha3: String::from("CYP"),
+        name: String::from("Cyprus"),
+        num: String::from("196"),
     });
     codes.push(CountryCode {
-        alpha2: "CZ",
-        alpha3: "CZE",
-        name: "Czech Republic",
-        num: "203",
+        alpha2: String::from("CZ"),
+        alpha3: String::from("CZE"),
+        name: String::from("Czech Republic"),
+        num: String::from("203"),
     });
     codes.push(CountryCode {
-        alpha2: "BJ",
-        alpha3: "BEN",
-        name: "Benin",
-        num: "204",
+        alpha2: String::from("BJ"),
+        alpha3: String::from("BEN"),
+        name: String::from("Benin"),
+        num: String::from("204"),
     });
     codes.push(CountryCode {
-        alpha2: "DK",
-        alpha3: "DNK",
-        name: "Denmark",
-        num: "208",
+        alpha2: String::from("DK"),
+        alpha3: String::from("DNK"),
+        name: String::from("Denmark"),
+        num: String::from("208"),
     });
     codes.push(CountryCode {
-        alpha2: "DM",
-        alpha3: "DMA",
-        name: "Dominica",
-        num: "212",
+        alpha2: String::from("DM"),
+        alpha3: String::from("DMA"),
+        name: String::from("Dominica"),
+        num: String::from("212"),
     });
     codes.push(CountryCode {
-        alpha2: "DO",
-        alpha3: "DOM",
-        name: "Dominican Republic",
-        num: "214",
+        alpha2: String::from("DO"),
+        alpha3: String::from("DOM"),
+        name: String::from("Dominican Republic"),
+        num: String::from("214"),
     });
     codes.push(CountryCode {
-        alpha2: "EC",
-        alpha3: "ECU",
-        name: "Ecuador",
-        num: "218",
+        alpha2: String::from("EC"),
+        alpha3: String::from("ECU"),
+        name: String::from("Ecuador"),
+        num: String::from("218"),
     });
     codes.push(CountryCode {
-        alpha2: "SV",
-        alpha3: "SLV",
-        name: "El Salvador",
-        num: "222",
+        alpha2: String::from("SV"),
+        alpha3: String::from("SLV"),
+        name: String::from("El Salvador"),
+        num: String::from("222"),
     });
     codes.push(CountryCode {
-        alpha2: "GQ",
-        alpha3: "GNQ",
-        name: "Equatorial Guinea",
-        num: "226",
+        alpha2: String::from("GQ"),
+        alpha3: String::from("GNQ"),
+        name: String::from("Equatorial Guinea"),
+        num: String::from("226"),
     });
     codes.push(CountryCode {
-        alpha2: "ET",
-        alpha3: "ETH",
-        name: "Ethiopia",
-        num: "231",
+        alpha2: String::from("ET"),
+        alpha3: String::from("ETH"),
+        name: String::from("Ethiopia"),
+        num: String::from("231"),
     });
     codes.push(CountryCode {
-        alpha2: "ER",
-        alpha3: "ERI",
-        name: "Eritrea",
-        num: "232",
+        alpha2: String::from("ER"),
+        alpha3: String::from("ERI"),
+        name: String::from("Eritrea"),
+        num: String::from("232"),
     });
     codes.push(CountryCode {
-        alpha2: "EE",
-        alpha3: "EST",
-        name: "Estonia",
-        num: "233",
+        alpha2: String::from("EE"),
+        alpha3: String::from("EST"),
+        name: String::from("Estonia"),
+        num: String::from("233"),
     });
     codes.push(CountryCode {
-        alpha2: "FO",
-        alpha3: "FRO",
-        name: "Faroe Islands",
-        num: "234",
+        alpha2: String::from("FO"),
+        alpha3: String::from("FRO"),
+        name: String::from("Faroe Islands"),
+        num: String::from("234"),
     });
     codes.push(CountryCode {
-        alpha2: "FK",
-        alpha3: "FLK",
-        name: "Falkland Islands",
-        num: "238",
+        alpha2: String::from("FK"),
+        alpha3: String::from("FLK"),
+        name: String::from("Falkland Islands"),
+        num: String::from("238"),
     });
     codes.push(CountryCode {
-        alpha2: "GS",
-        alpha3: "SGS",
-        name: "South Georgia and the South Sandwich Islands",
-        num: "239",
+        alpha2: String::from("GS"),
+        alpha3: String::from("SGS"),
+        name: String::from("South Georgia and the South Sandwich Islands"),
+        num: String::from("239"),
     });
     codes.push(CountryCode {
-        alpha2: "FJ",
-        alpha3: "FJI",
-        name: "Fiji",
-        num: "242",
+        alpha2: String::from("FJ"),
+        alpha3: String::from("FJI"),
+        name: String::from("Fiji"),
+        num: String::from("242"),
     });
     codes.push(CountryCode {
-        alpha2: "FI",
-        alpha3: "FIN",
-        name: "Finland",
-        num: "246",
+        alpha2: String::from("FI"),
+        alpha3: String::from("FIN"),
+        name: String::from("Finland"),
+        num: String::from("246"),
     });
     codes.push(CountryCode {
-        alpha2: "AX",
-        alpha3: "ALA",
-        name: "Åland Islands",
-        num: "248",
+        alpha2: String::from("AX"),
+        alpha3: String::from("ALA"),
+        name: String::from("Åland Islands"),
+        num: String::from("248"),
     });
     codes.push(CountryCode {
-        alpha2: "FR",
-        alpha3: "FRA",
-        name: "France",
-        num: "250",
+        alpha2: String::from("FR"),
+        alpha3: String::from("FRA"),
+        name: String::from("France"),
+        num: String::from("250"),
     });
     codes.push(CountryCode {
-        alpha2: "GF",
-        alpha3: "GUF",
-        name: "French Guiana",
-        num: "254",
+        alpha2: String::from("GF"),
+        alpha3: String::from("GUF"),
+        name: String::from("French Guiana"),
+        num: String::from("254"),
     });
     codes.push(CountryCode {
-        alpha2: "PF",
-        alpha3: "PYF",
-        name: "French Polynesia",
-        num: "258",
+        alpha2: String::from("PF"),
+        alpha3: String::from("PYF"),
+        name: String::from("French Polynesia"),
+        num: String::from("258"),
     });
     codes.push(CountryCode {
-        alpha2: "TF",
-        alpha3: "ATF",
-        name: "French Southern Territories",
-        num: "260",
+        alpha2: String::from("TF"),
+        alpha3: String::from("ATF"),
+        name: String::from("French Southern Territories"),
+        num: String::from("260"),
     });
     codes.push(CountryCode {
-        alpha2: "DJ",
-        alpha3: "DJI",
-        name: "Djibouti",
-        num: "262",
+        alpha2: String::from("DJ"),
+        alpha3: String::from("DJI"),
+        name: String::from("Djibouti"),
+        num: String::from("262"),
     });
     codes.push(CountryCode {
-        alpha2: "GA",
-        alpha3: "GAB",
-        name: "Gabon",
-        num: "266",
+        alpha2: String::from("GA"),
+        alpha3: String::from("GAB"),
+        name: String::from("Gabon"),
+        num: String::from("266"),
     });
     codes.push(CountryCode {
-        alpha2: "GE",
-        alpha3: "GEO",
-        name: "Georgia",
-        num: "268",
+        alpha2: String::from("GE"),
+        alpha3: String::from("GEO"),
+        name: String::from("Georgia"),
+        num: String::from("268"),
     });
     codes.push(CountryCode {
-        alpha2: "GM",
-        alpha3: "GMB",
-        name: "Gambia",
-        num: "270",
+        alpha2: String::from("GM"),
+        alpha3: String::from("GMB"),
+        name: String::from("Gambia"),
+        num: String::from("270"),
     });
     codes.push(CountryCode {
-        alpha2: "PS",
-        alpha3: "PSE",
-        name: "Palestine, State of",
-        num: "275",
+        alpha2: String::from("PS"),
+        alpha3: String::from("PSE"),
+        name: String::from("Palestine, State of"),
+        num: String::from("275"),
     });
     codes.push(CountryCode {
-        alpha2: "DE",
-        alpha3: "DEU",
-        name: "Germany",
-        num: "276",
+        alpha2: String::from("DE"),
+        alpha3: String::from("DEU"),
+        name: String::from("Germany"),
+        num: String::from("276"),
     });
     codes.push(CountryCode {
-        alpha2: "GH",
-        alpha3: "GHA",
-        name: "Ghana",
-        num: "288",
+        alpha2: String::from("GH"),
+        alpha3: String::from("GHA"),
+        name: String::from("Ghana"),
+        num: String::from("288"),
     });
     codes.push(CountryCode {
-        alpha2: "GI",
-        alpha3: "GIB",
-        name: "Gibraltar",
-        num: "292",
+        alpha2: String::from("GI"),
+        alpha3: String::from("GIB"),
+        name: String::from("Gibraltar"),
+        num: String::from("292"),
     });
     codes.push(CountryCode {
-        alpha2: "KI",
-        alpha3: "KIR",
-        name: "Kiribati",
-        num: "296",
+        alpha2: String::from("KI"),
+        alpha3: String::from("KIR"),
+        name: String::from("Kiribati"),
+        num: String::from("296"),
     });
     codes.push(CountryCode {
-        alpha2: "GR",
-        alpha3: "GRC",
-        name: "Greece",
-        num: "300",
+        alpha2: String::from("GR"),
+        alpha3: String::from("GRC"),
+        name: String::from("Greece"),
+        num: String::from("300"),
     });
     codes.push(CountryCode {
-        alpha2: "GL",
-        alpha3: "GRL",
-        name: "Greenland",
-        num: "304",
+        alpha2: String::from("GL"),
+        alpha3: String::from("GRL"),
+        name: String::from("Greenland"),
+        num: String::from("304"),
     });
     codes.push(CountryCode {
-        alpha2: "GD",
-        alpha3: "GRD",
-        name: "Grenada",
-        num: "308",
+        alpha2: String::from("GD"),
+        alpha3: String::from("GRD"),
+        name: String::from("Grenada"),
+        num: String::from("308"),
     });
     codes.push(CountryCode {
-        alpha2: "GP",
-        alpha3: "GLP",
-        name: "Guadeloupe",
-        num: "312",
+        alpha2: String::from("GP"),
+        alpha3: String::from("GLP"),
+        name: String::from("Guadeloupe"),
+        num: String::from("312"),
     });
     codes.push(CountryCode {
-        alpha2: "GU",
-        alpha3: "GUM",
-        name: "Guam",
-        num: "316",
+        alpha2: String::from("GU"),
+        alpha3: String::from("GUM"),
+        name: String::from("Guam"),
+        num: String::from("316"),
     });
     codes.push(CountryCode {
-        alpha2: "GT",
-        alpha3: "GTM",
-        name: "Guatemala",
-        num: "320",
+        alpha2: String::from("GT"),
+        alpha3: String::from("GTM"),
+        name: String::from("Guatemala"),
+        num: String::from("320"),
     });
     codes.push(CountryCode {
-        alpha2: "GN",
-        alpha3: "GIN",
-        name: "Guinea",
-        num: "324",
+        alpha2: String::from("GN"),
+        alpha3: String::from("GIN"),
+        name: String::from("Guinea"),
+        num: String::from("324"),
     });
     codes.push(CountryCode {
-        alpha2: "GY",
-        alpha3: "GUY",
-        name: "Guyana",
-        num: "328",
+        alpha2: String::from("GY"),
+        alpha3: String::from("GUY"),
+        name: String::from("Guyana"),
+        num: String::from("328"),
     });
     codes.push(CountryCode {
-        alpha2: "HT",
-        alpha3: "HTI",
-        name: "Haiti",
-        num: "332",
+        alpha2: String::from("HT"),
+        alpha3: String::from("HTI"),
+        name: String::from("Haiti"),
+        num: String::from("332"),
     });
     codes.push(CountryCode {
-        alpha2: "HM",
-        alpha3: "HMD",
-        name: "Heard Island and McDonald Islands",
-        num: "334",
+        alpha2: String::from("HM"),
+        alpha3: String::from("HMD"),
+        name: String::from("Heard Island and McDonald Islands"),
+        num: String::from("334"),
     });
     codes.push(CountryCode {
-        alpha2: "VA",
-        alpha3: "VAT",
-        name: "Holy See",
-        num: "336",
+        alpha2: String::from("VA"),
+        alpha3: String::from("VAT"),
+        name: String::from("Holy See"),
+        num: String::from("336"),
     });
     codes.push(CountryCode {
-        alpha2: "HN",
-        alpha3: "HND",
-        name: "Honduras",
-        num: "340",
+        alpha2: String::from("HN"),
+        alpha3: String::from("HND"),
+        name: String::from("Honduras"),
+        num: String::from("340"),
     });
     codes.push(CountryCode {
-        alpha2: "HK",
-        alpha3: "HKG",
-        name: "Hong Kong",
-        num: "344",
+        alpha2: String::from("HK"),
+        alpha3: String::from("HKG"),
+        name: String::from("Hong Kong"),
+        num: String::from("344"),
     });
     codes.push(CountryCode {
-        alpha2: "HU",
-        alpha3: "HUN",
-        name: "Hungary",
-        num: "348",
+        alpha2: String::from("HU"),
+        alpha3: String::from("HUN"),
+        name: String::from("Hungary"),
+        num: String::from("348"),
     });
     codes.push(CountryCode {
-        alpha2: "IS",
-        alpha3: "ISL",
-        name: "Iceland",
-        num: "352",
+        alpha2: String::from("IS"),
+        alpha3: String::from("ISL"),
+        name: String::from("Iceland"),
+        num: String::from("352"),
     });
     codes.push(CountryCode {
-        alpha2: "IN",
-        alpha3: "IND",
-        name: "India",
-        num: "356",
+        alpha2: String::from("IN"),
+        alpha3: String::from("IND"),
+        name: String::from("India"),
+        num: String::from("356"),
     });
     codes.push(CountryCode {
-        alpha2: "ID",
-        alpha3: "IDN",
-        name: "Indonesia",
-        num: "360",
+        alpha2: String::from("ID"),
+        alpha3: String::from("IDN"),
+        name: String::from("Indonesia"),
+        num: String::from("360"),
     });
     codes.push(CountryCode {
-        alpha2: "IR",
-        alpha3: "IRN",
-        name: "Iran (Islamic Republic of)",
-        num: "364",
+        alpha2: String::from("IR"),
+        alpha3: String::from("IRN"),
+        name: String::from("Iran (Islamic Republic of)"),
+        num: String::from("364"),
     });
     codes.push(CountryCode {
-        alpha2: "IQ",
-        alpha3: "IRQ",
-        name: "Iraq",
-        num: "368",
+        alpha2: String::from("IQ"),
+        alpha3: String::from("IRQ"),
+        name: String::from("Iraq"),
+        num: String::from("368"),
     });
     codes.push(CountryCode {
-        alpha2: "IE",
-        alpha3: "IRL",
-        name: "Ireland",
-        num: "372",
+        alpha2: String::from("IE"),
+        alpha3: String::from("IRL"),
+        name: String::from("Ireland"),
+        num: String::from("372"),
     });
     codes.push(CountryCode {
-        alpha2: "IL",
-        alpha3: "ISR",
-        name: "Israel",
-        num: "376",
+        alpha2: String::from("IL"),
+        alpha3: String::from("ISR"),
+        name: String::from("Israel"),
+        num: String::from("376"),
     });
     codes.push(CountryCode {
-        alpha2: "IT",
-        alpha3: "ITA",
-        name: "Italy",
-        num: "380",
+        alpha2: String::from("IT"),
+        alpha3: String::from("ITA"),
+        name: String::from("Italy"),
+        num: String::from("380"),
     });
     codes.push(CountryCode {
-        alpha2: "CI",
-        alpha3: "CIV",
-        name: "Côte d'Ivoire",
-        num: "384",
+        alpha2: String::from("CI"),
+        alpha3: String::from("CIV"),
+        name: String::from("Côte d'Ivoire"),
+        num: String::from("384"),
     });
     codes.push(CountryCode {
-        alpha2: "JM",
-        alpha3: "JAM",
-        name: "Jamaica",
-        num: "388",
+        alpha2: String::from("JM"),
+        alpha3: String::from("JAM"),
+        name: String::from("Jamaica"),
+        num: String::from("388"),
     });
     codes.push(CountryCode {
-        alpha2: "JP",
-        alpha3: "JPN",
-        name: "Japan",
-        num: "392",
+        alpha2: String::from("JP"),
+        alpha3: String::from("JPN"),
+        name: String::from("Japan"),
+        num: String::from("392"),
     });
     codes.push(CountryCode {
-        alpha2: "KZ",
-        alpha3: "KAZ",
-        name: "Kazakhstan",
-        num: "398",
+        alpha2: String::from("KZ"),
+        alpha3: String::from("KAZ"),
+        name: String::from("Kazakhstan"),
+        num: String::from("398"),
     });
     codes.push(CountryCode {
-        alpha2: "JO",
-        alpha3: "JOR",
-        name: "Jordan",
-        num: "400",
+        alpha2: String::from("JO"),
+        alpha3: String::from("JOR"),
+        name: String::from("Jordan"),
+        num: String::from("400"),
     });
     codes.push(CountryCode {
-        alpha2: "KE",
-        alpha3: "KEN",
-        name: "Kenya",
-        num: "404",
+        alpha2: String::from("KE"),
+        alpha3: String::from("KEN"),
+        name: String::from("Kenya"),
+        num: String::from("404"),
     });
     codes.push(CountryCode {
-        alpha2: "KP",
-        alpha3: "PRK",
-        name: "Korea (Democratic People's Republic of)",
-        num: "408",
+        alpha2: String::from("KP"),
+        alpha3: String::from("PRK"),
+        name: String::from("Korea (Democratic People's Republic of)"),
+        num: String::from("408"),
     });
     codes.push(CountryCode {
-        alpha2: "KR",
-        alpha3: "KOR",
-        name: "Korea (Republic of)",
-        num: "410",
+        alpha2: String::from("KR"),
+        alpha3: String::from("KOR"),
+        name: String::from("Korea (Republic of)"),
+        num: String::from("410"),
     });
     codes.push(CountryCode {
-        alpha2: "KW",
-        alpha3: "KWT",
-        name: "Kuwait",
-        num: "414",
+        alpha2: String::from("KW"),
+        alpha3: String::from("KWT"),
+        name: String::from("Kuwait"),
+        num: String::from("414"),
     });
     codes.push(CountryCode {
-        alpha2: "KG",
-        alpha3: "KGZ",
-        name: "Kyrgyzstan",
-        num: "417",
+        alpha2: String::from("KG"),
+        alpha3: String::from("KGZ"),
+        name: String::from("Kyrgyzstan"),
+        num: String::from("417"),
     });
     codes.push(CountryCode {
-        alpha2: "LA",
-        alpha3: "LAO",
-        name: "Lao People's Democratic Republic",
-        num: "418",
+        alpha2: String::from("LA"),
+        alpha3: String::from("LAO"),
+        name: String::from("Lao People's Democratic Republic"),
+        num: String::from("418"),
     });
     codes.push(CountryCode {
-        alpha2: "LB",
-        alpha3: "LBN",
-        name: "Lebanon",
-        num: "422",
+        alpha2: String::from("LB"),
+        alpha3: String::from("LBN"),
+        name: String::from("Lebanon"),
+        num: String::from("422"),
     });
     codes.push(CountryCode {
-        alpha2: "LS",
-        alpha3: "LSO",
-        name: "Lesotho",
-        num: "426",
+        alpha2: String::from("LS"),
+        alpha3: String::from("LSO"),
+        name: String::from("Lesotho"),
+        num: String::from("426"),
     });
     codes.push(CountryCode {
-        alpha2: "LV",
-        alpha3: "LVA",
-        name: "Latvia",
-        num: "428",
+        alpha2: String::from("LV"),
+        alpha3: String::from("LVA"),
+        name: String::from("Latvia"),
+        num: String::from("428"),
     });
     codes.push(CountryCode {
-        alpha2: "LR",
-        alpha3: "LBR",
-        name: "Liberia",
-        num: "430",
+        alpha2: String::from("LR"),
+        alpha3: String::from("LBR"),
+        name: String::from("Liberia"),
+        num: String::from("430"),
     });
     codes.push(CountryCode {
-        alpha2: "LY",
-        alpha3: "LBY",
-        name: "Libya",
-        num: "434",
+        alpha2: String::from("LY"),
+        alpha3: String::from("LBY"),
+        name: String::from("Libya"),
+        num: String::from("434"),
     });
     codes.push(CountryCode {
-        alpha2: "LI",
-        alpha3: "LIE",
-        name: "Liechtenstein",
-        num: "438",
+        alpha2: String::from("LI"),
+        alpha3: String::from("LIE"),
+        name: String::from("Liechtenstein"),
+        num: String::from("438"),
     });
     codes.push(CountryCode {
-        alpha2: "LT",
-        alpha3: "LTU",
-        name: "Lithuania",
-        num: "440",
+        alpha2: String::from("LT"),
+        alpha3: String::from("LTU"),
+        name: String::from("Lithuania"),
+        num: String::from("440"),
     });
     codes.push(CountryCode {
-        alpha2: "LU",
-        alpha3: "LUX",
-        name: "Luxembourg",
-        num: "442",
+        alpha2: String::from("LU"),
+        alpha3: String::from("LUX"),
+        name: String::from("Luxembourg"),
+        num: String::from("442"),
     });
     codes.push(CountryCode {
-        alpha2: "MO",
-        alpha3: "MAC",
-        name: "Macao",
-        num: "446",
+        alpha2: String::from("MO"),
+        alpha3: String::from("MAC"),
+        name: String::from("Macao"),
+        num: String::from("446"),
     });
     codes.push(CountryCode {
-        alpha2: "MG",
-        alpha3: "MDG",
-        name: "Madagascar",
-        num: "450",
+        alpha2: String::from("MG"),
+        alpha3: String::from("MDG"),
+        name: String::from("Madagascar"),
+        num: String::from("450"),
     });
     codes.push(CountryCode {
-        alpha2: "MW",
-        alpha3: "MWI",
-        name: "Malawi",
-        num: "454",
+        alpha2: String::from("MW"),
+        alpha3: String::from("MWI"),
+        name: String::from("Malawi"),
+        num: String::from("454"),
     });
     codes.push(CountryCode {
-        alpha2: "MY",
-        alpha3: "MYS",
-        name: "Malaysia",
-        num: "458",
+        alpha2: String::from("MY"),
+        alpha3: String::from("MYS"),
+        name: String::from("Malaysia"),
+        num: String::from("458"),
     });
     codes.push(CountryCode {
-        alpha2: "MV",
-        alpha3: "MDV",
-        name: "Maldives",
-        num: "462",
+        alpha2: String::from("MV"),
+        alpha3: String::from("MDV"),
+        name: String::from("Maldives"),
+        num: String::from("462"),
     });
     codes.push(CountryCode {
-        alpha2: "ML",
-        alpha3: "MLI",
-        name: "Mali",
-        num: "466",
+        alpha2: String::from("ML"),
+        alpha3: String::from("MLI"),
+        name: String::from("Mali"),
+        num: String::from("466"),
     });
     codes.push(CountryCode {
-        alpha2: "MT",
-        alpha3: "MLT",
-        name: "Malta",
-        num: "470",
+        alpha2: String::from("MT"),
+        alpha3: String::from("MLT"),
+        name: String::from("Malta"),
+        num: String::from("470"),
     });
     codes.push(CountryCode {
-        alpha2: "MQ",
-        alpha3: "MTQ",
-        name: "Martinique",
-        num: "474",
+        alpha2: String::from("MQ"),
+        alpha3: String::from("MTQ"),
+        name: String::from("Martinique"),
+        num: String::from("474"),
     });
     codes.push(CountryCode {
-        alpha2: "MR",
-        alpha3: "MRT",
-        name: "Mauritania",
-        num: "478",
+        alpha2: String::from("MR"),
+        alpha3: String::from("MRT"),
+        name: String::from("Mauritania"),
+        num: String::from("478"),
     });
     codes.push(CountryCode {
-        alpha2: "MU",
-        alpha3: "MUS",
-        name: "Mauritius",
-        num: "480",
+        alpha2: String::from("MU"),
+        alpha3: String::from("MUS"),
+        name: String::from("Mauritius"),
+        num: String::from("480"),
     });
     codes.push(CountryCode {
-        alpha2: "MX",
-        alpha3: "MEX",
-        name: "Mexico",
-        num: "484",
+        alpha2: String::from("MX"),
+        alpha3: String::from("MEX"),
+        name: String::from("Mexico"),
+        num: String::from("484"),
     });
     codes.push(CountryCode {
-        alpha2: "MC",
-        alpha3: "MCO",
-        name: "Monaco",
-        num: "492",
+        alpha2: String::from("MC"),
+        alpha3: String::from("MCO"),
+        name: String::from("Monaco"),
+        num: String::from("492"),
     });
     codes.push(CountryCode {
-        alpha2: "MN",
-        alpha3: "MNG",
-        name: "Mongolia",
-        num: "496",
+        alpha2: String::from("MN"),
+        alpha3: String::from("MNG"),
+        name: String::from("Mongolia"),
+        num: String::from("496"),
     });
     codes.push(CountryCode {
-        alpha2: "MD",
-        alpha3: "MDA",
-        name: "Moldova (Republic of)",
-        num: "498",
+        alpha2: String::from("MD"),
+        alpha3: String::from("MDA"),
+        name: String::from("Moldova (Republic of)"),
+        num: String::from("498"),
     });
     codes.push(CountryCode {
-        alpha2: "ME",
-        alpha3: "MNE",
-        name: "Montenegro",
-        num: "499",
+        alpha2: String::from("ME"),
+        alpha3: String::from("MNE"),
+        name: String::from("Montenegro"),
+        num: String::from("499"),
     });
     codes.push(CountryCode {
-        alpha2: "MS",
-        alpha3: "MSR",
-        name: "Montserrat",
-        num: "500",
+        alpha2: String::from("MS"),
+        alpha3: String::from("MSR"),
+        name: String::from("Montserrat"),
+        num: String::from("500"),
     });
     codes.push(CountryCode {
-        alpha2: "MA",
-        alpha3: "MAR",
-        name: "Morocco",
-        num: "504",
+        alpha2: String::from("MA"),
+        alpha3: String::from("MAR"),
+        name: String::from("Morocco"),
+        num: String::from("504"),
     });
     codes.push(CountryCode {
-        alpha2: "MZ",
-        alpha3: "MOZ",
-        name: "Mozambique",
-        num: "508",
+        alpha2: String::from("MZ"),
+        alpha3: String::from("MOZ"),
+        name: String::from("Mozambique"),
+        num: String::from("508"),
     });
     codes.push(CountryCode {
-        alpha2: "OM",
-        alpha3: "OMN",
-        name: "Oman",
-        num: "512",
+        alpha2: String::from("OM"),
+        alpha3: String::from("OMN"),
+        name: String::from("Oman"),
+        num: String::from("512"),
     });
     codes.push(CountryCode {
-        alpha2: "NA",
-        alpha3: "NAM",
-        name: "Namibia",
-        num: "516",
+        alpha2: String::from("NA"),
+        alpha3: String::from("NAM"),
+        name: String::from("Namibia"),
+        num: String::from("516"),
     });
     codes.push(CountryCode {
-        alpha2: "NR",
-        alpha3: "NRU",
-        name: "Nauru",
-        num: "520",
+        alpha2: String::from("NR"),
+        alpha3: String::from("NRU"),
+        name: String::from("Nauru"),
+        num: String::from("520"),
     });
     codes.push(CountryCode {
-        alpha2: "NP",
-        alpha3: "NPL",
-        name: "Nepal",
-        num: "524",
+        alpha2: String::from("NP"),
+        alpha3: String::from("NPL"),
+        name: String::from("Nepal"),
+        num: String::from("524"),
     });
     codes.push(CountryCode {
-        alpha2: "NL",
-        alpha3: "NLD",
-        name: "Netherlands",
-        num: "528",
+        alpha2: String::from("NL"),
+        alpha3: String::from("NLD"),
+        name: String::from("Netherlands"),
+        num: String::from("528"),
     });
     codes.push(CountryCode {
-        alpha2: "CW",
-        alpha3: "CUW",
-        name: "Curaçao",
-        num: "531",
+        alpha2: String::from("CW"),
+        alpha3: String::from("CUW"),
+        name: String::from("Curaçao"),
+        num: String::from("531"),
     });
     codes.push(CountryCode {
-        alpha2: "AW",
-        alpha3: "ABW",
-        name: "Aruba",
-        num: "533",
+        alpha2: String::from("AW"),
+        alpha3: String::from("ABW"),
+        name: String::from("Aruba"),
+        num: String::from("533"),
     });
     codes.push(CountryCode {
-        alpha2: "SX",
-        alpha3: "SXM",
-        name: "Sint Maarten (Dutch part)",
-        num: "534",
+        alpha2: String::from("SX"),
+        alpha3: String::from("SXM"),
+        name: String::from("Sint Maarten (Dutch part)"),
+        num: String::from("534"),
     });
     codes.push(CountryCode {
-        alpha2: "BQ",
-        alpha3: "BES",
-        name: "Bonaire, Sint Eustatius and Saba",
-        num: "535",
+        alpha2: String::from("BQ"),
+        alpha3: String::from("BES"),
+        name: String::from("Bonaire, Sint Eustatius and Saba"),
+        num: String::from("535"),
     });
     codes.push(CountryCode {
-        alpha2: "NC",
-        alpha3: "NCL",
-        name: "New Caledonia",
-        num: "540",
+        alpha2: String::from("NC"),
+        alpha3: String::from("NCL"),
+        name: String::from("New Caledonia"),
+        num: String::from("540"),
     });
     codes.push(CountryCode {
-        alpha2: "VU",
-        alpha3: "VUT",
-        name: "Vanuatu",
-        num: "548",
+        alpha2: String::from("VU"),
+        alpha3: String::from("VUT"),
+        name: String::from("Vanuatu"),
+        num: String::from("548"),
     });
     codes.push(CountryCode {
-        alpha2: "NZ",
-        alpha3: "NZL",
-        name: "New Zealand",
-        num: "554",
+        alpha2: String::from("NZ"),
+        alpha3: String::from("NZL"),
+        name: String::from("New Zealand"),
+        num: String::from("554"),
     });
     codes.push(CountryCode {
-        alpha2: "NI",
-        alpha3: "NIC",
-        name: "Nicaragua",
-        num: "558",
+        alpha2: String::from("NI"),
+        alpha3: String::from("NIC"),
+        name: String::from("Nicaragua"),
+        num: String::from("558"),
     });
     codes.push(CountryCode {
-        alpha2: "NE",
-        alpha3: "NER",
-        name: "Niger",
-        num: "562",
+        alpha2: String::from("NE"),
+        alpha3: String::from("NER"),
+        name: String::from("Niger"),
+        num: String::from("562"),
     });
     codes.push(CountryCode {
-        alpha2: "NG",
-        alpha3: "NGA",
-        name: "Nigeria",
-        num: "566",
+        alpha2: String::from("NG"),
+        alpha3: String::from("NGA"),
+        name: String::from("Nigeria"),
+        num: String::from("566"),
     });
     codes.push(CountryCode {
-        alpha2: "NU",
-        alpha3: "NIU",
-        name: "Niue",
-        num: "570",
+        alpha2: String::from("NU"),
+        alpha3: String::from("NIU"),
+        name: String::from("Niue"),
+        num: String::from("570"),
     });
     codes.push(CountryCode {
-        alpha2: "NF",
-        alpha3: "NFK",
-        name: "Norfolk Island",
-        num: "574",
+        alpha2: String::from("NF"),
+        alpha3: String::from("NFK"),
+        name: String::from("Norfolk Island"),
+        num: String::from("574"),
     });
     codes.push(CountryCode {
-        alpha2: "NO",
-        alpha3: "NOR",
-        name: "Norway",
-        num: "578",
+        alpha2: String::from("NO"),
+        alpha3: String::from("NOR"),
+        name: String::from("Norway"),
+        num: String::from("578"),
     });
     codes.push(CountryCode {
-        alpha2: "MP",
-        alpha3: "MNP",
-        name: "Northern Mariana Islands",
-        num: "580",
+        alpha2: String::from("MP"),
+        alpha3: String::from("MNP"),
+        name: String::from("Northern Mariana Islands"),
+        num: String::from("580"),
     });
     codes.push(CountryCode {
-        alpha2: "UM",
-        alpha3: "UMI",
-        name: "United States Minor Outlying Islands",
-        num: "581",
+        alpha2: String::from("UM"),
+        alpha3: String::from("UMI"),
+        name: String::from("United States Minor Outlying Islands"),
+        num: String::from("581"),
     });
     codes.push(CountryCode {
-        alpha2: "FM",
-        alpha3: "FSM",
-        name: "Micronesia (Federated States of)",
-        num: "583",
+        alpha2: String::from("FM"),
+        alpha3: String::from("FSM"),
+        name: String::from("Micronesia (Federated States of)"),
+        num: String::from("583"),
     });
     codes.push(CountryCode {
-        alpha2: "MH",
-        alpha3: "MHL",
-        name: "Marshall Islands",
-        num: "584",
+        alpha2: String::from("MH"),
+        alpha3: String::from("MHL"),
+        name: String::from("Marshall Islands"),
+        num: String::from("584"),
     });
     codes.push(CountryCode {
-        alpha2: "PW",
-        alpha3: "PLW",
-        name: "Palau",
-        num: "585",
+        alpha2: String::from("PW"),
+        alpha3: String::from("PLW"),
+        name: String::from("Palau"),
+        num: String::from("585"),
     });
     codes.push(CountryCode {
-        alpha2: "PK",
-        alpha3: "PAK",
-        name: "Pakistan",
-        num: "586",
+        alpha2: String::from("PK"),
+        alpha3: String::from("PAK"),
+        name: String::from("Pakistan"),
+        num: String::from("586"),
     });
     codes.push(CountryCode {
-        alpha2: "PA",
-        alpha3: "PAN",
-        name: "Panama",
-        num: "591",
+        alpha2: String::from("PA"),
+        alpha3: String::from("PAN"),
+        name: String::from("Panama"),
+        num: String::from("591"),
     });
     codes.push(CountryCode {
-        alpha2: "PG",
-        alpha3: "PNG",
-        name: "Papua New Guinea",
-        num: "598",
+        alpha2: String::from("PG"),
+        alpha3: String::from("PNG"),
+        name: String::from("Papua New Guinea"),
+        num: String::from("598"),
     });
     codes.push(CountryCode {
-        alpha2: "PY",
-        alpha3: "PRY",
-        name: "Paraguay",
-        num: "600",
+        alpha2: String::from("PY"),
+        alpha3: String::from("PRY"),
+        name: String::from("Paraguay"),
+        num: String::from("600"),
     });
     codes.push(CountryCode {
-        alpha2: "PE",
-        alpha3: "PER",
-        name: "Peru",
-        num: "604",
+        alpha2: String::from("PE"),
+        alpha3: String::from("PER"),
+        name: String::from("Peru"),
+        num: String::from("604"),
     });
     codes.push(CountryCode {
-        alpha2: "PH",
-        alpha3: "PHL",
-        name: "Philippines",
-        num: "608",
+        alpha2: String::from("PH"),
+        alpha3: String::from("PHL"),
+        name: String::from("Philippines"),
+        num: String::from("608"),
     });
     codes.push(CountryCode {
-        alpha2: "PN",
-        alpha3: "PCN",
-        name: "Pitcairn",
-        num: "612",
+        alpha2: String::from("PN"),
+        alpha3: String::from("PCN"),
+        name: String::from("Pitcairn"),
+        num: String::from("612"),
     });
     codes.push(CountryCode {
-        alpha2: "PL",
-        alpha3: "POL",
-        name: "Poland",
-        num: "616",
+        alpha2: String::from("PL"),
+        alpha3: String::from("POL"),
+        name: String::from("Poland"),
+        num: String::from("616"),
     });
     codes.push(CountryCode {
-        alpha2: "PT",
-        alpha3: "PRT",
-        name: "Portugal",
-        num: "620",
+        alpha2: String::from("PT"),
+        alpha3: String::from("PRT"),
+        name: String::from("Portugal"),
+        num: String::from("620"),
     });
     codes.push(CountryCode {
-        alpha2: "GW",
-        alpha3: "GNB",
-        name: "Guinea-Bissau",
-        num: "624",
+        alpha2: String::from("GW"),
+        alpha3: String::from("GNB"),
+        name: String::from("Guinea-Bissau"),
+        num: String::from("624"),
     });
     codes.push(CountryCode {
-        alpha2: "TL",
-        alpha3: "TLS",
-        name: "Timor-Leste",
-        num: "626",
+        alpha2: String::from("TL"),
+        alpha3: String::from("TLS"),
+        name: String::from("Timor-Leste"),
+        num: String::from("626"),
     });
     codes.push(CountryCode {
-        alpha2: "PR",
-        alpha3: "PRI",
-        name: "Puerto Rico",
-        num: "630",
+        alpha2: String::from("PR"),
+        alpha3: String::from("PRI"),
+        name: String::from("Puerto Rico"),
+        num: String::from("630"),
     });
     codes.push(CountryCode {
-        alpha2: "QA",
-        alpha3: "QAT",
-        name: "Qatar",
-        num: "634",
+        alpha2: String::from("QA"),
+        alpha3: String::from("QAT"),
+        name: String::from("Qatar"),
+        num: String::from("634"),
     });
     codes.push(CountryCode {
-        alpha2: "RE",
-        alpha3: "REU",
-        name: "Réunion",
-        num: "638",
+        alpha2: String::from("RE"),
+        alpha3: String::from("REU"),
+        name: String::from("Réunion"),
+        num: String::from("638"),
     });
     codes.push(CountryCode {
-        alpha2: "RO",
-        alpha3: "ROU",
-        name: "Romania",
-        num: "642",
+        alpha2: String::from("RO"),
+        alpha3: String::from("ROU"),
+        name: String::from("Romania"),
+        num: String::from("642"),
     });
     codes.push(CountryCode {
-        alpha2: "RU",
-        alpha3: "RUS",
-        name: "Russian Federation",
-        num: "643",
+        alpha2: String::from("RU"),
+        alpha3: String::from("RUS"),
+        name: String::from("Russian Federation"),
+        num: String::from("643"),
     });
     codes.push(CountryCode {
-        alpha2: "RW",
-        alpha3: "RWA",
-        name: "Rwanda",
-        num: "646",
+        alpha2: String::from("RW"),
+        alpha3: String::from("RWA"),
+        name: String::from("Rwanda"),
+        num: String::from("646"),
     });
     codes.push(CountryCode {
-        alpha2: "BL",
-        alpha3: "BLM",
-        name: "Saint Barthélemy",
-        num: "652",
+        alpha2: String::from("BL"),
+        alpha3: String::from("BLM"),
+        name: String::from("Saint Barthélemy"),
+        num: String::from("652"),
     });
     codes.push(CountryCode {
-        alpha2: "SH",
-        alpha3: "SHN",
-        name: "Saint Helena, Ascension and Tristan da Cunha",
-        num: "654",
+        alpha2: String::from("SH"),
+        alpha3: String::from("SHN"),
+        name: String::from("Saint Helena, Ascension and Tristan da Cunha"),
+        num: String::from("654"),
     });
     codes.push(CountryCode {
-        alpha2: "KN",
-        alpha3: "KNA",
-        name: "Saint Kitts and Nevis",
-        num: "659",
+        alpha2: String::from("KN"),
+        alpha3: String::from("KNA"),
+        name: String::from("Saint Kitts and Nevis"),
+        num: String::from("659"),
     });
     codes.push(CountryCode {
-        alpha2: "AI",
-        alpha3: "AIA",
-        name: "Anguilla",
-        num: "660",
+        alpha2: String::from("AI"),
+        alpha3: String::from("AIA"),
+        name: String::from("Anguilla"),
+        num: String::from("660"),
     });
     codes.push(CountryCode {
-        alpha2: "LC",
-        alpha3: "LCA",
-        name: "Saint Lucia",
-        num: "662",
+        alpha2: String::from("LC"),
+        alpha3: String::from("LCA"),
+        name: String::from("Saint Lucia"),
+        num: String::from("662"),
     });
     codes.push(CountryCode {
-        alpha2: "MF",
-        alpha3: "MAF",
-        name: "Saint Martin (French part)",
-        num: "663",
+        alpha2: String::from("MF"),
+        alpha3: String::from("MAF"),
+        name: String::from("Saint Martin (French part)"),
+        num: String::from("663"),
     });
     codes.push(CountryCode {
-        alpha2: "PM",
-        alpha3: "SPM",
-        name: "Saint Pierre and Miquelon",
-        num: "666",
+        alpha2: String::from("PM"),
+        alpha3: String::from("SPM"),
+        name: String::from("Saint Pierre and Miquelon"),
+        num: String::from("666"),
     });
     codes.push(CountryCode {
-        alpha2: "VC",
-        alpha3: "VCT",
-        name: "Saint Vincent and the Grenadines",
-        num: "670",
+        alpha2: String::from("VC"),
+        alpha3: String::from("VCT"),
+        name: String::from("Saint Vincent and the Grenadines"),
+        num: String::from("670"),
     });
     codes.push(CountryCode {
-        alpha2: "SM",
-        alpha3: "SMR",
-        name: "San Marino",
-        num: "674",
+        alpha2: String::from("SM"),
+        alpha3: String::from("SMR"),
+        name: String::from("San Marino"),
+        num: String::from("674"),
     });
     codes.push(CountryCode {
-        alpha2: "ST",
-        alpha3: "STP",
-        name: "Sao Tome and Principe",
-        num: "678",
+        alpha2: String::from("ST"),
+        alpha3: String::from("STP"),
+        name: String::from("Sao Tome and Principe"),
+        num: String::from("678"),
     });
     codes.push(CountryCode {
-        alpha2: "SA",
-        alpha3: "SAU",
-        name: "Saudi Arabia",
-        num: "682",
+        alpha2: String::from("SA"),
+        alpha3: String::from("SAU"),
+        name: String::from("Saudi Arabia"),
+        num: String::from("682"),
     });
     codes.push(CountryCode {
-        alpha2: "SN",
-        alpha3: "SEN",
-        name: "Senegal",
-        num: "686",
+        alpha2: String::from("SN"),
+        alpha3: String::from("SEN"),
+        name: String::from("Senegal"),
+        num: String::from("686"),
     });
     codes.push(CountryCode {
-        alpha2: "RS",
-        alpha3: "SRB",
-        name: "Serbia",
-        num: "688",
+        alpha2: String::from("RS"),
+        alpha3: String::from("SRB"),
+        name: String::from("Serbia"),
+        num: String::from("688"),
     });
     codes.push(CountryCode {
-        alpha2: "SC",
-        alpha3: "SYC",
-        name: "Seychelles",
-        num: "690",
+        alpha2: String::from("SC"),
+        alpha3: String::from("SYC"),
+        name: String::from("Seychelles"),
+        num: String::from("690"),
     });
     codes.push(CountryCode {
-        alpha2: "SL",
-        alpha3: "SLE",
-        name: "Sierra Leone",
-        num: "694",
+        alpha2: String::from("SL"),
+        alpha3: String::from("SLE"),
+        name: String::from("Sierra Leone"),
+        num: String::from("694"),
     });
     codes.push(CountryCode {
-        alpha2: "SG",
-        alpha3: "SGP",
-        name: "Singapore",
-        num: "702",
+        alpha2: String::from("SG"),
+        alpha3: String::from("SGP"),
+        name: String::from("Singapore"),
+        num: String::from("702"),
     });
     codes.push(CountryCode {
-        alpha2: "SK",
-        alpha3: "SVK",
-        name: "Slovakia",
-        num: "703",
+        alpha2: String::from("SK"),
+        alpha3: String::from("SVK"),
+        name: String::from("Slovakia"),
+        num: String::from("703"),
     });
     codes.push(CountryCode {
-        alpha2: "VN",
-        alpha3: "VNM",
-        name: "Viet Nam",
-        num: "704",
+        alpha2: String::from("VN"),
+        alpha3: String::from("VNM"),
+        name: String::from("Viet Nam"),
+        num: String::from("704"),
     });
     codes.push(CountryCode {
-        alpha2: "SI",
-        alpha3: "SVN",
-        name: "Slovenia",
-        num: "705",
+        alpha2: String::from("SI"),
+        alpha3: String::from("SVN"),
+        name: String::from("Slovenia"),
+        num: String::from("705"),
     });
     codes.push(CountryCode {
-        alpha2: "SO",
-        alpha3: "SOM",
-        name: "Somalia",
-        num: "706",
+        alpha2: String::from("SO"),
+        alpha3: String::from("SOM"),
+        name: String::from("Somalia"),
+        num: String::from("706"),
     });
     codes.push(CountryCode {
-        alpha2: "ZA",
-        alpha3: "ZAF",
-        name: "South Africa",
-        num: "710",
+        alpha2: String::from("ZA"),
+        alpha3: String::from("ZAF"),
+        name: String::from("South Africa"),
+        num: String::from("710"),
     });
     codes.push(CountryCode {
-        alpha2: "ZW",
-        alpha3: "ZWE",
-        name: "Zimbabwe",
-        num: "716",
+        alpha2: String::from("ZW"),
+        alpha3: String::from("ZWE"),
+        name: String::from("Zimbabwe"),
+        num: String::from("716"),
     });
     codes.push(CountryCode {
-        alpha2: "ES",
-        alpha3: "ESP",
-        name: "Spain",
-        num: "724",
+        alpha2: String::from("ES"),
+        alpha3: String::from("ESP"),
+        name: String::from("Spain"),
+        num: String::from("724"),
     });
     codes.push(CountryCode {
-        alpha2: "SS",
-        alpha3: "SSD",
-        name: "South Sudan",
-        num: "728",
+        alpha2: String::from("SS"),
+        alpha3: String::from("SSD"),
+        name: String::from("South Sudan"),
+        num: String::from("728"),
     });
     codes.push(CountryCode {
-        alpha2: "SD",
-        alpha3: "SDN",
-        name: "Sudan",
-        num: "729",
+        alpha2: String::from("SD"),
+        alpha3: String::from("SDN"),
+        name: String::from("Sudan"),
+        num: String::from("729"),
     });
     codes.push(CountryCode {
-        alpha2: "EH",
-        alpha3: "ESH",
-        name: "Western Sahara",
-        num: "732",
+        alpha2: String::from("EH"),
+        alpha3: String::from("ESH"),
+        name: String::from("Western Sahara"),
+        num: String::from("732"),
     });
     codes.push(CountryCode {
-        alpha2: "SR",
-        alpha3: "SUR",
-        name: "Suriname",
-        num: "740",
+        alpha2: String::from("SR"),
+        alpha3: String::from("SUR"),
+        name: String::from("Suriname"),
+        num: String::from("740"),
     });
     codes.push(CountryCode {
-        alpha2: "SJ",
-        alpha3: "SJM",
-        name: "Svalbard and Jan Mayen",
-        num: "744",
+        alpha2: String::from("SJ"),
+        alpha3: String::from("SJM"),
+        name: String::from("Svalbard and Jan Mayen"),
+        num: String::from("744"),
     });
     codes.push(CountryCode {
-        alpha2: "SZ",
-        alpha3: "SWZ",
-        name: "Swaziland",
-        num: "748",
+        alpha2: String::from("SZ"),
+        alpha3: String::from("SWZ"),
+        name: String::from("Swaziland"),
+        num: String::from("748"),
     });
     codes.push(CountryCode {
-        alpha2: "SE",
-        alpha3: "SWE",
-        name: "Sweden",
-        num: "752",
+        alpha2: String::from("SE"),
+        alpha3: String::from("SWE"),
+        name: String::from("Sweden"),
+        num: String::from("752"),
     });
     codes.push(CountryCode {
-        alpha2: "CH",
-        alpha3: "CHE",
-        name: "Switzerland",
-        num: "756",
+        alpha2: String::from("CH"),
+        alpha3: String::from("CHE"),
+        name: String::from("Switzerland"),
+        num: String::from("756"),
     });
     codes.push(CountryCode {
-        alpha2: "SY",
-        alpha3: "SYR",
-        name: "Syrian Arab Republic",
-        num: "760",
+        alpha2: String::from("SY"),
+        alpha3: String::from("SYR"),
+        name: String::from("Syrian Arab Republic"),
+        num: String::from("760"),
     });
     codes.push(CountryCode {
-        alpha2: "TJ",
-        alpha3: "TJK",
-        name: "Tajikistan",
-        num: "762",
+        alpha2: String::from("TJ"),
+        alpha3: String::from("TJK"),
+        name: String::from("Tajikistan"),
+        num: String::from("762"),
     });
     codes.push(CountryCode {
-        alpha2: "TH",
-        alpha3: "THA",
-        name: "Thailand",
-        num: "764",
+        alpha2: String::from("TH"),
+        alpha3: String::from("THA"),
+        name: String::from("Thailand"),
+        num: String::from("764"),
     });
     codes.push(CountryCode {
-        alpha2: "TG",
-        alpha3: "TGO",
-        name: "Togo",
-        num: "768",
+        alpha2: String::from("TG"),
+        alpha3: String::from("TGO"),
+        name: String::from("Togo"),
+        num: String::from("768"),
     });
     codes.push(CountryCode {
-        alpha2: "TK",
-        alpha3: "TKL",
-        name: "Tokelau",
-        num: "772",
+        alpha2: String::from("TK"),
+        alpha3: String::from("TKL"),
+        name: String::from("Tokelau"),
+        num: String::from("772"),
     });
     codes.push(CountryCode {
-        alpha2: "TO",
-        alpha3: "TON",
-        name: "Tonga",
-        num: "776",
+        alpha2: String::from("TO"),
+        alpha3: String::from("TON"),
+        name: String::from("Tonga"),
+        num: String::from("776"),
     });
     codes.push(CountryCode {
-        alpha2: "TT",
-        alpha3: "TTO",
-        name: "Trinidad and Tobago",
-        num: "780",
+        alpha2: String::from("TT"),
+        alpha3: String::from("TTO"),
+        name: String::from("Trinidad and Tobago"),
+        num: String::from("780"),
     });
     codes.push(CountryCode {
-        alpha2: "AE",
-        alpha3: "ARE",
-        name: "United Arab Emirates",
-        num: "784",
+        alpha2: String::from("AE"),
+        alpha3: String::from("ARE"),
+        name: String::from("United Arab Emirates"),
+        num: String::from("784"),
     });
     codes.push(CountryCode {
-        alpha2: "TN",
-        alpha3: "TUN",
-        name: "Tunisia",
-        num: "788",
+        alpha2: String::from("TN"),
+        alpha3: String::from("TUN"),
+        name: String::from("Tunisia"),
+        num: String::from("788"),
     });
     codes.push(CountryCode {
-        alpha2: "TR",
-        alpha3: "TUR",
-        name: "Turkey",
-        num: "792",
+        alpha2: String::from("TR"),
+        alpha3: String::from("TUR"),
+        name: String::from("Turkey"),
+        num: String::from("792"),
     });
     codes.push(CountryCode {
-        alpha2: "TM",
-        alpha3: "TKM",
-        name: "Turkmenistan",
-        num: "795",
+        alpha2: String::from("TM"),
+        alpha3: String::from("TKM"),
+        name: String::from("Turkmenistan"),
+        num: String::from("795"),
     });
     codes.push(CountryCode {
-        alpha2: "TC",
-        alpha3: "TCA",
-        name: "Turks and Caicos Islands",
-        num: "796",
+        alpha2: String::from("TC"),
+        alpha3: String::from("TCA"),
+        name: String::from("Turks and Caicos Islands"),
+        num: String::from("796"),
     });
     codes.push(CountryCode {
-        alpha2: "TV",
-        alpha3: "TUV",
-        name: "Tuvalu",
-        num: "798",
+        alpha2: String::from("TV"),
+        alpha3: String::from("TUV"),
+        name: String::from("Tuvalu"),
+        num: String::from("798"),
     });
     codes.push(CountryCode {
-        alpha2: "UG",
-        alpha3: "UGA",
-        name: "Uganda",
-        num: "800",
+        alpha2: String::from("UG"),
+        alpha3: String::from("UGA"),
+        name: String::from("Uganda"),
+        num: String::from("800"),
     });
     codes.push(CountryCode {
-        alpha2: "UA",
-        alpha3: "UKR",
-        name: "Ukraine",
-        num: "804",
+        alpha2: String::from("UA"),
+        alpha3: String::from("UKR"),
+        name: String::from("Ukraine"),
+        num: String::from("804"),
     });
     codes.push(CountryCode {
-        alpha2: "MK",
-        alpha3: "MKD",
-        name: "Macedonia (the former Yugoslav Republic of)",
-        num: "807",
+        alpha2: String::from("MK"),
+        alpha3: String::from("MKD"),
+        name: String::from("Macedonia (the former Yugoslav Republic of)"),
+        num: String::from("807"),
     });
     codes.push(CountryCode {
-        alpha2: "EG",
-        alpha3: "EGY",
-        name: "Egypt",
-        num: "818",
+        alpha2: String::from("EG"),
+        alpha3: String::from("EGY"),
+        name: String::from("Egypt"),
+        num: String::from("818"),
     });
     codes.push(CountryCode {
-        alpha2: "GB",
-        alpha3: "GBR",
-        name: "United Kingdom of Great Britain and Northern Ireland",
-        num: "826",
+        alpha2: String::from("GB"),
+        alpha3: String::from("GBR"),
+        name: String::from("United Kingdom of Great Britain and Northern Ireland"),
+        num: String::from("826"),
     });
     codes.push(CountryCode {
-        alpha2: "GG",
-        alpha3: "GGY",
-        name: "Guernsey",
-        num: "831",
+        alpha2: String::from("GG"),
+        alpha3: String::from("GGY"),
+        name: String::from("Guernsey"),
+        num: String::from("831"),
     });
     codes.push(CountryCode {
-        alpha2: "JE",
-        alpha3: "JEY",
-        name: "Jersey",
-        num: "832",
+        alpha2: String::from("JE"),
+        alpha3: String::from("JEY"),
+        name: String::from("Jersey"),
+        num: String::from("832"),
     });
     codes.push(CountryCode {
-        alpha2: "IM",
-        alpha3: "IMN",
-        name: "Isle of Man",
-        num: "833",
+        alpha2: String::from("IM"),
+        alpha3: String::from("IMN"),
+        name: String::from("Isle of Man"),
+        num: String::from("833"),
     });
     codes.push(CountryCode {
-        alpha2: "TZ",
-        alpha3: "TZA",
-        name: "Tanzania, United Republic of",
-        num: "834",
+        alpha2: String::from("TZ"),
+        alpha3: String::from("TZA"),
+        name: String::from("Tanzania, United Republic of"),
+        num: String::from("834"),
     });
     codes.push(CountryCode {
-        alpha2: "US",
-        alpha3: "USA",
-        name: "United States of America",
-        num: "840",
+        alpha2: String::from("US"),
+        alpha3: String::from("USA"),
+        name: String::from("United States of America"),
+        num: String::from("840"),
     });
     codes.push(CountryCode {
-        alpha2: "VI",
-        alpha3: "VIR",
-        name: "Virgin Islands (U.S.)",
-        num: "850",
+        alpha2: String::from("VI"),
+        alpha3: String::from("VIR"),
+        name: String::from("Virgin Islands (U.S.)"),
+        num: String::from("850"),
     });
     codes.push(CountryCode {
-        alpha2: "BF",
-        alpha3: "BFA",
-        name: "Burkina Faso",
-        num: "854",
+        alpha2: String::from("BF"),
+        alpha3: String::from("BFA"),
+        name: String::from("Burkina Faso"),
+        num: String::from("854"),
     });
     codes.push(CountryCode {
-        alpha2: "UY",
-        alpha3: "URY",
-        name: "Uruguay",
-        num: "858",
+        alpha2: String::from("UY"),
+        alpha3: String::from("URY"),
+        name: String::from("Uruguay"),
+        num: String::from("858"),
     });
     codes.push(CountryCode {
-        alpha2: "UZ",
-        alpha3: "UZB",
-        name: "Uzbekistan",
-        num: "860",
+        alpha2: String::from("UZ"),
+        alpha3: String::from("UZB"),
+        name: String::from("Uzbekistan"),
+        num: String::from("860"),
     });
     codes.push(CountryCode {
-        alpha2: "VE",
-        alpha3: "VEN",
-        name: "Venezuela (Bolivarian Republic of)",
-        num: "862",
+        alpha2: String::from("VE"),
+        alpha3: String::from("VEN"),
+        name: String::from("Venezuela (Bolivarian Republic of)"),
+        num: String::from("862"),
     });
     codes.push(CountryCode {
-        alpha2: "WF",
-        alpha3: "WLF",
-        name: "Wallis and Futuna",
-        num: "876",
+        alpha2: String::from("WF"),
+        alpha3: String::from("WLF"),
+        name: String::from("Wallis and Futuna"),
+        num: String::from("876"),
     });
     codes.push(CountryCode {
-        alpha2: "WS",
-        alpha3: "WSM",
-        name: "Samoa",
-        num: "882",
+        alpha2: String::from("WS"),
+        alpha3: String::from("WSM"),
+        name: String::from("Samoa"),
+        num: String::from("882"),
     });
     codes.push(CountryCode {
-        alpha2: "YE",
-        alpha3: "YEM",
-        name: "Yemen",
-        num: "887",
+        alpha2: String::from("YE"),
+        alpha3: String::from("YEM"),
+        name: String::from("Yemen"),
+        num: String::from("887"),
     });
     codes.push(CountryCode {
-        alpha2: "ZM",
-        alpha3: "ZMB",
-        name: "Zambia",
-        num: "894",
+        alpha2: String::from("ZM"),
+        alpha3: String::from("ZMB"),
+        name: String::from("Zambia"),
+        num: String::from("894"),
     });
     // End
 
